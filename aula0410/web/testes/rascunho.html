@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<style>
+    :root {
+        --cor-site: red;
+        --font-text: white;
+    }
+
+    /* tem que ter em todos as paginas é padrao ai nao sofre*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* flex-direction: row; default padrao*/
+        background-color: var(--cor-site);
+        width: 100%;
+        height: 20%;
+    }
+
+    h2 {
+        color: var(--font-text);
+    }
+
+    nav {
+        padding: 1rem;
+    }
+
+    nav a {
+        background-color: var(--cor-site);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        color: var(--font-text);
+        text-decoration: none;
+        /* margin: 3rem; */
+        /* margin é fora */
+        /* padding: 3rem; */
+        /* padding é dentro */
+    }
+
+    .ex {
+        background-color: var(--cor-site);
+        height: 500px;
+        width: 500px;
+        margin: 3rem;
+        border-radius: 50px 50px 50px 50px;
+    }
+</style>
+
+<body>
+    <header>
+        <h2>Daniele</h2>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Projeto</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+
+
+    <div class="ex"> </div>
+</body>
+
+</html>

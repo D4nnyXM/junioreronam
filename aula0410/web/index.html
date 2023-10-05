@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<style>
+    /* Estilos para telas grandes */
+    main {
+        padding: 1.5rem;
+        margin: auto;
+        min-width: 320px;
+        /* Largura mínima para telas pequenas */
+        max-width: 900px;
+        /* Largura máxima para telas grandes */
+    }
+
+
+    /* assim que funciona a resposividade o valor dentro das tags é alterado coforme o tamanho especifica na media */
+
+    /* Estilos para telas médias */
+    @media screen and (max-width: 768px) {
+        main {
+            padding: 1rem;
+            /* Reduza o preenchimento para telas médias */
+        }
+    }
+
+    /* Estilos para telas pequenas (dispositivos móveis) */
+    @media screen and (max-width: 576px) {
+        main {
+            padding: 0.5rem;
+            /* Reduza ainda mais o preenchimento para telas pequenas */
+        }
+    }
+</style>
+
+<body>
+    <main style="background-color: blue;">
+        <h1 style="color: #ffffff">Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quae possimus suscipit sapiente assumenda
+            tempore vel sed itaque libero! Deserunt ullam saepe dolorem eveniet repellendus eos velit reiciendis iusto
+            magnam!
+        </p>
+    </main>
+</body>
+
+
+</html>
